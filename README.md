@@ -18,3 +18,25 @@ parallel execution
 reporting
 retry logic
 CI pipeline ready
+
+
+sdet-automation-framework/
+│
+├── src/test/java/
+│   ├── base/
+│   ├── pages/
+│   ├── tests/
+│   ├── api/
+│   ├── utils/
+│   └── config/
+│
+├── src/test/resources/
+│   ├── config.properties
+│   └── testng.xml
+│
+├── .github/workflows/
+│   └── ci.yml
+│
+├── reports/
+├── pom.xml
+└── README.md
